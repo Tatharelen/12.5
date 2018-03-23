@@ -8,8 +8,9 @@ h1 {
 }
 
 .box {
-    margin-top: 100px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
 }
 
 .box-tweet {
