@@ -28,7 +28,7 @@ function createTweet(input) {
 }
 
 $(document).ready(function() {
-	getQuote();
+	// getQuote();
 	$('.trigger').click(function(){
 		getQuote();
 	})
