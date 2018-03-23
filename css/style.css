@@ -8,14 +8,19 @@ h1 {
 }
 
 .box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
+    margin-top: 100px;
+}
+
+.box .quote {
+    text-align: center;
+    font-family: 'Roboto';
+    padding: 0 20px;
 }
 
 .box .author {
-    margin-top: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Roboto';
 }
 
 .box-tweet {
@@ -23,7 +28,7 @@ h1 {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .box-tweet .trigger {
